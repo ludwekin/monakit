@@ -45,10 +45,12 @@ export interface SlideTheme {
   overlayColor: string;
 }
 
-export const SITE_TITLE = "MONA";
-export const SITE_DESCRIPTION = "Mona — Learn from What We Build";
 
-export const PROD_URL = "https://www.mymona.xyz";
+
+export const SITE_TITLE = "ZENIA电子周报";
+export const SITE_DESCRIPTION = "ZENIA电子周报 — 分享电子产品的最新动态和技术趋势";
+
+export const PROD_URL = "https://www.zeniaweekly.com";
 
 export const isProdEnv = () => {
   if (import.meta.env?.PROD || import.meta.env?.MODE === "production") {
