@@ -45,10 +45,9 @@ export interface SlideTheme {
   overlayColor: string;
 }
 
-
-
 export const SITE_TITLE = "ZENIA电子周报";
-export const SITE_DESCRIPTION = "ZENIA电子周报 — 分享电子产品的最新动态和技术趋势";
+export const SITE_DESCRIPTION =
+  "ZENIA电子周报 — 分享电子产品的最新动态和技术趋势";
 
 export const PROD_URL = "https://www.zeniaweekly.com";
 
